@@ -165,6 +165,11 @@ class DOMTreeBuilder implements EventHandler
     public function __construct($isFragment = false, array $options = array())
     {
         $this->options = $options;
+        $charset = !empty($options['encoding']) ? $options['encoding'] : 'UTF-8';
+
+        if($charset == 'gb2312' || $charset == 'GB2312' || $charset == 'gbk' || $charset == 'GBK'){
+            $charset = 'UTF-8';
+        }
 
         if (isset($options[self::OPT_TARGET_DOC])) {
             $this->doc = $options[self::OPT_TARGET_DOC];
@@ -176,7 +181,7 @@ class DOMTreeBuilder implements EventHandler
             $dt = $impl->createDocumentType('html');
             // $this->doc = \DOMImplementation::createDocument(NULL, 'html', $dt);
             $this->doc = $impl->createDocument(null, '', $dt);
-            $this->doc->encoding = !empty($options['encoding']) ? $options['encoding'] : 'UTF-8';
+            $this->doc->encoding = $charset;
         }
 
         $this->errors = array();
