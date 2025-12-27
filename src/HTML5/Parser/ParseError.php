@@ -1,6 +1,6 @@
 <?php
 
-namespace Masterminds\HTML5\Parser;
+namespace Fastwhale\HTML5\Parser;
 
 /**
  * Emit when the parser has an error.

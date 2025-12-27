@@ -1,10 +1,10 @@
 <?php
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-use Masterminds\HTML5\Parser\UTF8Utils;
+use Fastwhale\HTML5\Parser\UTF8Utils;
 
-class UTF8UtilsTest extends \Masterminds\HTML5\Tests\TestCase
+class UTF8UtilsTest extends \Fastwhale\HTML5\Tests\TestCase
 {
     public function testConvertToUTF8()
     {

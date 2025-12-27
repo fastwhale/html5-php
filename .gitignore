@@ -1,3 +1,4 @@
+.idea
 vendor/
 scratch.php
 composer.lock

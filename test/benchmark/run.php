@@ -4,7 +4,7 @@ require __DIR__ . '/../../vendor/autoload.php';
 
 $iterations = isset($argv[1]) ? $argv[1] : 100;
 
-$html5 = new Masterminds\HTML5();
+$html5 = new Fastwhale\HTML5();
 $content = file_get_contents(__DIR__ . '/example.html');
 $dom = $html5->loadHTML($content);
 

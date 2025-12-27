@@ -1,12 +1,12 @@
 <?php
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-use Masterminds\HTML5\Parser\Scanner;
-use Masterminds\HTML5\Parser\Tokenizer;
-use Masterminds\HTML5\Parser\UTF8Utils;
+use Fastwhale\HTML5\Parser\Scanner;
+use Fastwhale\HTML5\Parser\Tokenizer;
+use Fastwhale\HTML5\Parser\UTF8Utils;
 
-class TokenizerTest extends \Masterminds\HTML5\Tests\TestCase
+class TokenizerTest extends \Fastwhale\HTML5\Tests\TestCase
 {
     // ================================================================
     // Additional assertions.
@@ -916,7 +916,7 @@ class TokenizerTest extends \Masterminds\HTML5\Tests\TestCase
     public function testRcdata()
     {
         list($tok, $events) = $this->createTokenizer('<title>&#x27;<!-- not a comment --></TITLE>');
-        $tok->setTextMode(\Masterminds\HTML5\Elements::TEXT_RCDATA, 'title');
+        $tok->setTextMode(\Fastwhale\HTML5\Elements::TEXT_RCDATA, 'title');
         $tok->parse();
         $this->assertEventEquals('text', "'<!-- not a comment -->", $events->get(1));
     }

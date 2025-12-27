@@ -1,9 +1,9 @@
 <?php
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-use Masterminds\HTML5\Elements;
-use Masterminds\HTML5\Parser\EventHandler;
+use Fastwhale\HTML5\Elements;
+use Fastwhale\HTML5\Parser\EventHandler;
 
 /**
  * This testing class gathers events from a parser and builds a stack of events.

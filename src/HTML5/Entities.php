@@ -1,6 +1,6 @@
 <?php
 
-namespace Masterminds\HTML5;
+namespace Fastwhale\HTML5;
 
 /**
  * Entity lookup tables.

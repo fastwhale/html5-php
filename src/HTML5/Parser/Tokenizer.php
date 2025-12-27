@@ -1,8 +1,8 @@
 <?php
 
-namespace Masterminds\HTML5\Parser;
+namespace Fastwhale\HTML5\Parser;
 
-use Masterminds\HTML5\Elements;
+use Fastwhale\HTML5\Elements;
 
 /**
  * The HTML5 tokenizer.

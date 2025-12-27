@@ -1,9 +1,9 @@
 <?php
 
-namespace Masterminds\HTML5\Parser;
+namespace Fastwhale\HTML5\Parser;
 
-use Masterminds\HTML5\Elements;
-use Masterminds\HTML5\InstructionProcessor;
+use Fastwhale\HTML5\Elements;
+use Fastwhale\HTML5\InstructionProcessor;
 
 /**
  * Create an HTML5 DOM tree from events.

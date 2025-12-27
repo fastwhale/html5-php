@@ -1,8 +1,8 @@
 <?php
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-class InstructionProcessorMock implements \Masterminds\HTML5\InstructionProcessor
+class InstructionProcessorMock implements \Fastwhale\HTML5\InstructionProcessor
 {
     public $name = null;
 

@@ -1,7 +1,7 @@
 <?php
 
 require 'vendor/autoload.php';
-use Masterminds\HTML5;
+use Fastwhale\HTML5;
 
 $html = <<< 'HERE'
   <html>

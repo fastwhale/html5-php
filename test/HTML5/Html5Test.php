@@ -1,8 +1,8 @@
 <?php
 
-namespace Masterminds\HTML5\Tests;
+namespace Fastwhale\HTML5\Tests;
 
-use Masterminds\HTML5;
+use Fastwhale\HTML5;
 
 class Html5Test extends TestCase
 {

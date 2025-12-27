@@ -40,12 +40,12 @@ HTML5 provides the following features.
 
 Install HTML5-PHP using [composer](http://getcomposer.org/).
 
-By adding the `masterminds/html5` dependency to your `composer.json` file:
+By adding the `fastwhale/html5` dependency to your `composer.json` file:
 
 ```json
 {
   "require" : {
-    "masterminds/html5": "^2.0"
+    "fastwhale/html5": "^2.0"
   },
 }
 ```
@@ -53,7 +53,7 @@ By adding the `masterminds/html5` dependency to your `composer.json` file:
 By invoking require command via composer executable:
 
 ```bash
-composer require masterminds/html5
+composer require fastwhale/html5
 ```
 
 ## Basic Usage
@@ -67,7 +67,7 @@ Here is how you use the high-level `HTML5` library API:
 // Assuming you installed from Composer:
 require "vendor/autoload.php";
 
-use Masterminds\HTML5;
+use Fastwhale\HTML5;
 
 // An example HTML document:
 $html = <<< 'HERE'
@@ -218,7 +218,7 @@ issues known issues that are not presently on the roadmap:
 To use XML style namespaces you have to configure well the main `HTML5` instance.
 
 ```php
-use Masterminds\HTML5;
+use Fastwhale\HTML5;
 $html = new HTML5(array(
     "xmlNamespaces" => true
 ));
@@ -233,7 +233,7 @@ You can also add some default prefixes that will not require the namespace decla
 but its elements will be namespaced.
 
 ```php
-use Masterminds\HTML5;
+use Fastwhale\HTML5;
 $html = new HTML5(array(
     "implicitNamespaces"=>array(
         "t"=>"http://www.example.com"

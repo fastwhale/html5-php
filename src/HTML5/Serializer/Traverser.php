@@ -1,6 +1,6 @@
 <?php
 
-namespace Masterminds\HTML5\Serializer;
+namespace Fastwhale\HTML5\Serializer;
 
 /**
  * Traverser for walking a DOM tree.

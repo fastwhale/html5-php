@@ -7,9 +7,9 @@
  * was parsed. It is not intended to output exactly the document that was parsed.
  */
 
-namespace Masterminds\HTML5\Serializer;
+namespace Fastwhale\HTML5\Serializer;
 
-use Masterminds\HTML5\Elements;
+use Fastwhale\HTML5\Elements;
 
 /**
  * Generate the output html5 based on element rules.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Masterminds\HTML5\Parser;
+namespace Fastwhale\HTML5\Parser;
 
 /**
  * Handles special-case rules for the DOM tree builder.

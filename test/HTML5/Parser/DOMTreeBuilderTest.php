@@ -4,16 +4,16 @@
  * Test the Tree Builder.
  */
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-use Masterminds\HTML5\Parser\DOMTreeBuilder;
-use Masterminds\HTML5\Parser\Scanner;
-use Masterminds\HTML5\Parser\Tokenizer;
+use Fastwhale\HTML5\Parser\DOMTreeBuilder;
+use Fastwhale\HTML5\Parser\Scanner;
+use Fastwhale\HTML5\Parser\Tokenizer;
 
 /**
  * These tests are functional, not necessarily unit tests.
  */
-class DOMTreeBuilderTest extends \Masterminds\HTML5\Tests\TestCase
+class DOMTreeBuilderTest extends \Fastwhale\HTML5\Tests\TestCase
 {
     protected $errors = array();
 

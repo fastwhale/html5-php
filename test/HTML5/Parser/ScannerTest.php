@@ -4,12 +4,12 @@
  * Test the Scanner. This requires the InputStream tests are all good.
  */
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-use Masterminds\HTML5\Parser\Scanner;
-use Masterminds\HTML5\Parser\StringInputStream;
+use Fastwhale\HTML5\Parser\Scanner;
+use Fastwhale\HTML5\Parser\StringInputStream;
 
-class ScannerTest extends \Masterminds\HTML5\Tests\TestCase
+class ScannerTest extends \Fastwhale\HTML5\Tests\TestCase
 {
     /**
      * A canary test to make sure the basics are setup and working.
@@ -19,12 +19,12 @@ class ScannerTest extends \Masterminds\HTML5\Tests\TestCase
         $is = new StringInputStream('abc');
         $s = new Scanner($is);
 
-        $this->assertInstanceOf('\Masterminds\HTML5\Parser\Scanner', $s);
+        $this->assertInstanceOf('\Fastwhale\HTML5\Parser\Scanner', $s);
     }
 
     public function testConstruct()
     {
-        $this->assertInstanceOf('\Masterminds\HTML5\Parser\Scanner', new Scanner('abc'));
+        $this->assertInstanceOf('\Fastwhale\HTML5\Parser\Scanner', new Scanner('abc'));
     }
 
     public function testNextDeprecated()

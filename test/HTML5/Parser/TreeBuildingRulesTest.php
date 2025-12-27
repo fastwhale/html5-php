@@ -4,17 +4,17 @@
  * Test the Tree Builder's special-case rules.
  */
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-use Masterminds\HTML5\Parser\DOMTreeBuilder;
-use Masterminds\HTML5\Parser\Scanner;
-use Masterminds\HTML5\Parser\Tokenizer;
-use Masterminds\HTML5\Parser\TreeBuildingRules;
+use Fastwhale\HTML5\Parser\DOMTreeBuilder;
+use Fastwhale\HTML5\Parser\Scanner;
+use Fastwhale\HTML5\Parser\Tokenizer;
+use Fastwhale\HTML5\Parser\TreeBuildingRules;
 
 /**
  * These tests are functional, not necessarily unit tests.
  */
-class TreeBuildingRulesTest extends \Masterminds\HTML5\Tests\TestCase
+class TreeBuildingRulesTest extends \Fastwhale\HTML5\Tests\TestCase
 {
     const HTML_STUB = '<!DOCTYPE html><html><head><title>test</title></head><body>%s</body></html>';
 

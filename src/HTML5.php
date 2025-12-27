@@ -1,12 +1,12 @@
 <?php
 
-namespace Masterminds;
+namespace Fastwhale;
 
-use Masterminds\HTML5\Parser\DOMTreeBuilder;
-use Masterminds\HTML5\Parser\Scanner;
-use Masterminds\HTML5\Parser\Tokenizer;
-use Masterminds\HTML5\Serializer\OutputRules;
-use Masterminds\HTML5\Serializer\Traverser;
+use Fastwhale\HTML5\Parser\DOMTreeBuilder;
+use Fastwhale\HTML5\Parser\Scanner;
+use Fastwhale\HTML5\Parser\Tokenizer;
+use Fastwhale\HTML5\Serializer\OutputRules;
+use Fastwhale\HTML5\Serializer\Traverser;
 
 /**
  * This class offers convenience methods for parsing and serializing HTML5.

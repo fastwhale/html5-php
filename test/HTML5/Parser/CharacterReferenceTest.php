@@ -4,11 +4,11 @@
  * Test the Scanner. This requires the InputStream tests are all good.
  */
 
-namespace Masterminds\HTML5\Tests\Parser;
+namespace Fastwhale\HTML5\Tests\Parser;
 
-use Masterminds\HTML5\Parser\CharacterReference;
+use Fastwhale\HTML5\Parser\CharacterReference;
 
-class CharacterReferenceTest extends \Masterminds\HTML5\Tests\TestCase
+class CharacterReferenceTest extends \Fastwhale\HTML5\Tests\TestCase
 {
     public function testLookupName()
     {
